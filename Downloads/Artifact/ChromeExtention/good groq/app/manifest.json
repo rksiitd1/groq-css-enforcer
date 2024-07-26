@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Groq CSS Enforcer",
+    "version": "1.0",
+    "description": "Enforces custom CSS on groq.com",
+    "permissions": [
+      "activeTab"
+    ],
+    "icons": {
+      "16": "icon_16.png",
+      "48": "icon_48.png",
+      "128": "icon_128.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://groq.com/*"],
+        "css": ["styles.css"]
+      }
+    ]
+  }
