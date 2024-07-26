@@ -1,0 +1,17 @@
+footer {
+  display: none !important;
+}
+h1.pt-4.md\:pt-0.pb-8.px-4.text-xl.text-primaryaccent.text-center {
+  display: none !important;
+}
+.capitalize {
+  display: none !important;
+}
+.py-4 {
+  height: 40px !important;
+  padding: 10px 0 !important;
+  margin: 0 !important;
+}
+.hidden .order-1 > .flex {
+  display: none !important;
+}
